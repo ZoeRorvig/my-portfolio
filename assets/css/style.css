@@ -4,6 +4,11 @@
     margin: 0;
 }
 
+body {
+    background-color: #0749459c;
+}
+
+/*Header bar, including background photo*/
 header{
     background-image: url("../images/flowers.jpg");
     background-size: contain;
@@ -15,16 +20,17 @@ header{
     justify-content: center;
 }
 
+/* CSS for main header */
 h1{
     font-size: 75px;
     font-family: Gabriola, sans-serif;
     align-self: center;
 }
 
+/* CSS for navigation bar */
 nav{
     background-color: #3d4141d1;
     padding: 20px;
-    margin-bottom: 25px;
     display: flex;
     border: 2px solid black;
     justify-content: center;
@@ -50,21 +56,33 @@ nav ul li {
     color: #59dcdc;
     text-decoration: underline;
 }
+/*-----------------------------------------*/
 
-body {
-    background-color: #0749459c;
+.about-me-container{
+    background-color: #dce1e2;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px 15px;
 }
 
+.projects-container{
+    background-color: #dce1e2;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px 15px;
+}
+
+/* CSS for footer */
 footer{
     background-color: #3d4141d1;
     font-size: 15px;
     padding: 10px;
     display: flex;
     border: 2px solid black;
-    align: center;
+    align-content: center;
 }
 
-footer h3{
+footer h4{
     color:#ffffff;
 }
 
@@ -86,3 +104,4 @@ footer ul li {
     color: #59dcdc;
     text-decoration: underline;
 }
+/*------------------------------------------*/
