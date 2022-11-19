@@ -7,7 +7,7 @@
 header{
     background-image: url("../images/flowers.jpg");
     background-size: contain;
-    height: 200px;
+    height: 175px;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -57,11 +57,15 @@ body {
 
 footer{
     background-color: #3d4141d1;
+    font-size: 15px;
     padding: 10px;
     display: flex;
     border: 2px solid black;
-    justify-content: center;
     align: center;
+}
+
+footer h3{
+    color:#ffffff;
 }
 
 footer ul {
@@ -70,14 +74,12 @@ footer ul {
 
 footer ul li {
     display: inline-block;
-
 }
 
 .footer-links {
     color: #ffffff;
     text-decoration: none;
-    font-size: 15px;
-    padding: 50px; 
+    padding: 25px; 
 }
 
 .footer-links:hover{
