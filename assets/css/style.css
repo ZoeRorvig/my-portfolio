@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -34,11 +35,7 @@ nav{
     display: flex;
     border: 2px solid black;
     justify-content: center;
-    align: center;
-}
-
-nav ul {
-    list-style-type: none;
+    align-content: center;
 }
 
 nav ul li {
@@ -58,6 +55,11 @@ nav ul li {
 }
 /*-----------------------------------------*/
 
+.section-headers{
+    font-family: Gabriola, sans-serif;
+    font-size: 45px;
+}
+
 .about-me-container{
     background-color: #dce1e2;
     border: 1px solid black;
@@ -67,8 +69,13 @@ nav ul li {
     display: flex;
 }
 
+.fun-fact{
+    padding-top: 25px;
+}
+
 .profile-picture{
-    float: right;
+    padding-left: 40px;
+    padding-right: 20px;
 }
 
 .profile-picture img{
