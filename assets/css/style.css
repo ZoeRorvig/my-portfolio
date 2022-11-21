@@ -61,6 +61,7 @@ nav ul li {
     font-size: 45px;
 }
 
+/* CSS for About Me Section */
 .about-me-container{
     display: flex;
     background-color: #dce1e2;
@@ -86,7 +87,9 @@ nav ul li {
     border: 1px solid black;
     box-shadow: 5px 5px 5px #1d2121c3;
 }
+/*--------------------------------------------*/
 
+/* CSS for Projects Section */
 .projects-container{
     background-color: #dce1e2;
     border: 1px solid black;
@@ -94,6 +97,23 @@ nav ul li {
     margin: 10px 15px;
     border-radius: 10px;
 }
+
+.photo-columns{
+    display: flex;
+    flex: 50%
+    
+}
+
+.main-project-img{
+    max-width: 100%;
+    padding: 0 20px;
+}
+
+.sub-project-img{
+    max-width: 100%;
+    padding: 0 20px;
+}
+/*-----------------------------------------------*/
 
 /* CSS for footer */
 footer{
@@ -107,6 +127,7 @@ footer{
 
 footer h4{
     color:#ffffff;
+    padding-left: 20px;
 }
 
 footer ul {
