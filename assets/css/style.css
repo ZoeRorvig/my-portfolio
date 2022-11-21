@@ -66,6 +66,13 @@ nav ul li {
     margin: 10px 15px;
 }
 
+.profile-picture{
+    max-height: 400px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px #1d2121c3;
+}
+
 .projects-container{
     background-color: #dce1e2;
     border: 1px solid black;
