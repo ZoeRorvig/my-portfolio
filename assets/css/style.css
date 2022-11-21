@@ -11,7 +11,7 @@ body {
 }
 
 /*Header bar, including background photo*/
-header{
+.main-header{
     display: flex;
     justify-content: center;
     background-image: url("../images/flowers.jpg");
@@ -62,7 +62,7 @@ nav ul li {
 }
 
 /* CSS for About Me Section */
-.about-me-container{
+#about-me{
     display: flex;
     background-color: #dce1e2;
     border: 1px solid black;
@@ -90,7 +90,7 @@ nav ul li {
 /*--------------------------------------------*/
 
 /* CSS for Projects Section */
-.projects-container{
+#work{
     background-color: #dce1e2;
     border: 1px solid black;
     padding: 20px;
@@ -98,20 +98,19 @@ nav ul li {
     border-radius: 10px;
 }
 
-.photo-columns{
+.work-area{
     display: flex;
-    flex: 50%
-    
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.main-project-img{
-    max-width: 100%;
-    padding: 0 20px;
+.featured-work{
+    width: 100%;
 }
 
-.sub-project-img{
-    max-width: 100%;
-    padding: 0 20px;
+.sub-work{
+    width: 100%;
+    padding: 0 10px;
 }
 /*-----------------------------------------------*/
 
@@ -152,3 +151,17 @@ footer ul li {
     border: 10px outset #59dcdc;
 }
 /*------------------------------------------*/
+
+@media screen and (max-width: 768px) {
+    #about-me{
+        flex-direction: column;
+    }
+
+    .profile-picture{
+        padding: 10px 0;
+    }
+
+    .footer-links{
+        padding: 0 0 0 15px;
+    }
+}
