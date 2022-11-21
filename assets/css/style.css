@@ -11,14 +11,14 @@ body {
 
 /*Header bar, including background photo*/
 header{
+    display: flex;
+    justify-content: center;
     background-image: url("../images/flowers.jpg");
     background-size: contain;
     height: 175px;
     width: 100%;
     background-size: cover;
     background-position: center;
-    display: flex;
-    justify-content: center;
 }
 
 /* CSS for main header */
@@ -30,12 +30,12 @@ h1{
 
 /* CSS for navigation bar */
 nav{
-    background-color: #3d4141d1;
-    padding: 20px;
     display: flex;
-    border: 2px solid black;
     justify-content: center;
     align-content: center;
+    background-color: #3d4141d1;
+    padding: 20px;
+    border: 2px solid black;
 }
 
 nav ul li {
@@ -61,12 +61,12 @@ nav ul li {
 }
 
 .about-me-container{
+    display: flex;
     background-color: #dce1e2;
     border: 1px solid black;
     border-radius: 10px;
     padding: 20px;
     margin: 10px 15px;
-    display: flex;
 }
 
 .fun-fact{
@@ -95,12 +95,12 @@ nav ul li {
 
 /* CSS for footer */
 footer{
+    display: flex;
+    align-content: center;
     background-color: #3d4141d1;
     font-size: 15px;
     padding: 10px;
-    display: flex;
     border: 2px solid black;
-    align-content: center;
 }
 
 footer h4{
