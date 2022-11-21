@@ -1,3 +1,5 @@
+/* This file is used to reset the browsers CSS before applying our own styling. */
+
 * {
   margin: 0;
   padding: 0;
