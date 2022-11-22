@@ -109,7 +109,7 @@ article{
    padding: 5px 10px; 
 }
 
-article > h3{
+article h3{
     font-size: 20px;
 }
 
@@ -180,11 +180,12 @@ footer ul li {
     }
 
     .profile-picture{
-        padding: 20px 0 0 5px;
+        padding: 20px 20px 0 20px;
     }
 
     article{
         padding: 0;
+        width: 100%;
     }
 
 }
