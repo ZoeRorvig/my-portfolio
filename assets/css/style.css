@@ -89,7 +89,7 @@ nav ul li {
 }
 /*--------------------------------------------*/
 
-/* CSS for Projects Section */
+/* CSS for Work Section */
 #work{
     background-color: #dce1e2;
     border: 1px solid black;
@@ -169,6 +169,7 @@ footer ul li {
 }
 /*------------------------------------------*/
 
+/* To add responsiveness to the page. */
 @media screen and (max-width: 768px) {
     #about-me{
         flex-direction: column;
@@ -191,3 +192,4 @@ footer ul li {
         width: 100%;
     }
 }
+/*----------------------------------------------*/
